@@ -1,9 +1,9 @@
-
 #include "arraylib.h"
 #include <iostream>
 using namespace std;
 
 int main() {
+    cout<<"Продажи магазина за 10 дней"<<endl;
     int a[]={12500,9800,14300,11700,15600,13200,8900,16400,15100,12800};
     size_t n=sizeof(a)/sizeof(a[0]);
     cout<<"Выручка по дням: ";
