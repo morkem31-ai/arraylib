@@ -1,0 +1,6 @@
+build/
+*.o
+*.a
+*.so
+app
+test_app
