@@ -5,3 +5,5 @@ build/
 app
 test_app
 variant_03
+.cache/
+/variant_03.cpp

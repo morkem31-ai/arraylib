@@ -3,8 +3,8 @@ project(arraylib)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(arraylib SHARED arraylib.cpp)
-target_include_directories(arraylib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+add_library(arraylib SHARED src/arraylib.cpp)
+target_include_directories(arraylib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 add_executable(app main.cpp)
 target_link_libraries(app PRIVATE arraylib)
 enable_testing()
