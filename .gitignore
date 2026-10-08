@@ -4,3 +4,4 @@ build/
 *.so
 app
 test_app
+variant_03
